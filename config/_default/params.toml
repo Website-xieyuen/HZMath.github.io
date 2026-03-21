@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    subtitle = "数学研究无止境"
     avatar   = "img/avatar.png"
 
 [article]
@@ -55,3 +55,33 @@ SortBy              = "default"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.
+    [comments.giscus]
+    repo             = "HZMath/HZMath.github.io"
+    repoID           = "R_kgDORsvlHQ"
+    category         = "Comments"
+    categoryID       = "DIC_kwDORsvlHc4C46et"
+    mapping          = "title"
+    lightTheme       = "light"
+    darkTheme        = "dark_dimmed"
+    reactionsEnabled = 1
+    emitMetadata     = 0
+    inputPosition    = "bottom"
+    lang             = "zh-CN"
+    strict           = 0
+    loading          = "anonymous"
+
+# <script src="https://giscus.app/client.js"
+#         data-repo="HZMath/HZMath.github.io"
+#         data-repo-id="R_kgDORsvlHQ"
+#         data-category="Comments"
+#         data-category-id="DIC_kwDORsvlHc4C46et"
+#         data-mapping="title"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="bottom"
+#         data-theme="preferred_color_scheme"
+#         data-lang="zh-CN"
+#         crossorigin="anonymous"
+#         async>
+# </script>
