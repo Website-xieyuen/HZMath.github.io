@@ -9,10 +9,10 @@ hidden: false
 comments: true
 draft: false
 categories:
-    - Mathematics
+    - Contests
 tags:
-    - Examination
-    - Competition
+    - 高一竞赛
+    - 答案
 ---
 
 ## 填空题

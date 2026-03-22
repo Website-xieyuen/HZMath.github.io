@@ -1,6 +1,6 @@
 ---
-title: Mathematics
-description: mathematics-related posts
+title: Contests
+description: mathematical contest papers or answers
 
 # Badge style
 style:
