@@ -70,15 +70,15 @@ $$\therefore xy \le 2 + 2\sqrt{2}$$
 当且仅当 $x = 2\sqrt{2}y$, 即
 
 $$
-\left\{\begin{align*}
-x = \sqrt{8+4\sqrt{2}} \\
-y = \sqrt{1+\frac{\sqrt{2}}{2}}
-\end{align*}\right.
-或
-\left\{\begin{align*}
-x = -\sqrt{8+4\sqrt{2}} \\
-y = -\sqrt{1+\frac{\sqrt{2}}{2}}
-\end{align*}\right.
+\begin{cases}
+    x = \sqrt{8+4\sqrt{2}} \\
+    y = \sqrt{1+\frac{\sqrt{2}}{2}}
+\end{cases}
+\quad \text{或} \quad
+\begin{cases}
+    x = -\sqrt{8+4\sqrt{2}} \\
+    y = -\sqrt{1+\frac{\sqrt{2}}{2}}
+\end{cases}
 $$
 
 时取等.
