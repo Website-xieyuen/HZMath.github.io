@@ -10,8 +10,8 @@ favicon        = "img/favicon.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
-    customText = ""
+    since      = 2026
+    customText = "河源中学数学研究协会"
 
 [dateFormat]
     published   = ":date_full"
@@ -28,7 +28,7 @@ SortBy              = "default"
     readingTime   = true
 
     [article.license]
-        enabled = true
+        enabled = false
         default = "Licensed under CC BY-NC-SA 4.0"
 
 [widgets]
