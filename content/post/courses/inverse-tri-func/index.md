@@ -23,7 +23,7 @@ tags:
 
 B 站[宋浩老师](https://space.bilibili.com/66607740)的课还是很不错的, 可以去看看
 
-{{< bilibili "BV1Eb411u7Fw" >}}
+{{< bilibili "BV1Eb411u7Fw" 9 >}}
 
 看完你就不需要继续看这篇文章咯
 
