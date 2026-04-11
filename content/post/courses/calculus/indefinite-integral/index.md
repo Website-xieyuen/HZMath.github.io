@@ -15,11 +15,24 @@ tags:
     - 不定积分
 ---
 
+> [!IMPORTANT]
+> 可能用到的一些超出高中数学的公式:
+>
+> 1. $\cot x = \cfrac{1}{\tan x}$
+> 2. $\sec x = \cfrac{1}{\cos x}$
+> 3. $\csc x = \cfrac{1}{\sin x}$
+> 4. $\sec^2 x - \tan^2 x = 1$
+> 5. $\csc^2 x - \cot^2 x = 1$
+> 6. $\frac{\mathrm{d}}{\mathrm{d}x} \tan x = \sec^2 x$
+> 7. $\frac{\mathrm{d}}{\mathrm{d}x} \cot x = - \csc^2 x$
+> 8. $\frac{\mathrm{d}}{\mathrm{d}x} \sec x = \sec x \tan x$
+> 9. $\frac{\mathrm{d}}{\mathrm{d}x} \csc x = - \csc x \cot x$
+
 ## 凑微分法
 
 ### 例题
 
-> $\int x \sin x^2 \mathrm{d}x $
+> 求不定积分: $$\int x \sin x^2 \mathrm{d}x $$
 
 **【解】:** 把 $x$ 凑到 $\mathrm{d}$ 后面去
 
@@ -32,6 +45,8 @@ $$
 
 ### 练习
 
+求解下列不定积分:
+
 1. $ \int x e^{x^2} \mathrm{d}x $
 2. $ \int \cfrac{\ln x}{x} \mathrm{d}x $
 3. $ \int \sin^3 x \cos x \mathrm{d}x $
@@ -42,6 +57,29 @@ $$
 8. $ \int \cfrac{1}{\sin^2 x \cos^2 x} \mathrm{d}x $
 9. $ \int \cfrac{\sin x \cos x}{\sqrt{1 + \sin^4 x}} \mathrm{d}x $
 10. $ \int \tan^4 x \mathrm{d}x $
-    - *提示: 利用 $\tan^2 x = \sec^2 x - 1$ 降幂拆分*
 11. $ \int \cfrac{x e^x}{(1+x)^2} \mathrm{d}x $
 12. $ \int \cfrac{1 - \ln x}{(x - \ln x)^2} \mathrm{d}x $
+
+## 代入换元法
+
+### 例题
+
+> 求不定积分: $$\int \sqrt{1 - x^2} \mathrm{d}x $$
+
+**【解】:** 看到 $\sqrt{1 - x^2}$, 考虑三角换元 $x = \sin t$,
+则 $\mathrm{d}x = \cos t \mathrm{d}t$, 故
+
+$$
+\begin{aligned}
+I &= \int \sqrt{1 - \sin^2 t} \cos t \mathrm{d}t \\
+  &= \int \cos^2 t \mathrm{d}t \\
+  & = \cfrac{1}{2} \int (1 + \cos 2t) \mathrm{d}t \\
+  &= \cfrac{1}{2} t + \cfrac{1}{4} \sin 2t + C
+\end{aligned}
+$$
+
+### 练习
+
+1. $ \int \sqrt{4 - x^2} dx $
+2. $ \int \frac{1}{x^2 \sqrt{x^2 + 1}} dx $
+3. $ \int \frac{1}{\sqrt{x} + \sqrt[3]{x}} dx $
