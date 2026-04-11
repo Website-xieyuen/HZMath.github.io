@@ -47,18 +47,18 @@ $$
 
 求解下列不定积分:
 
-1. $ \int x e^{x^2} \mathrm{d}x $
-2. $ \int \cfrac{\ln x}{x} \mathrm{d}x $
-3. $ \int \sin^3 x \cos x \mathrm{d}x $
-4. $ \int \cfrac{1}{\sqrt{1-x^2}} \cdot \cfrac{1}{\sqrt{1-(\arcsin x)^2}} \mathrm{d}x $
-5. $ \int \cfrac{x}{(1+x^2)^2} \mathrm{d}x $
-6. $ \int \cfrac{1}{x \ln x (\ln(\ln x))^2} \mathrm{d}x $
-7. $ \int \cfrac{e^x (1 + \sin x)}{1 + \cos x} \mathrm{d}x $
-8. $ \int \cfrac{1}{\sin^2 x \cos^2 x} \mathrm{d}x $
-9. $ \int \cfrac{\sin x \cos x}{\sqrt{1 + \sin^4 x}} \mathrm{d}x $
-10. $ \int \tan^4 x \mathrm{d}x $
-11. $ \int \cfrac{x e^x}{(1+x)^2} \mathrm{d}x $
-12. $ \int \cfrac{1 - \ln x}{(x - \ln x)^2} \mathrm{d}x $
+1. $ \displaystyle \int x e^{x^2} \mathrm{d}x $
+2. $ \displaystyle \int \cfrac{\ln x}{x} \mathrm{d}x $
+3. $ \displaystyle \int \sin^3 x \cos x \mathrm{d}x $
+4. $ \displaystyle \int \cfrac{1}{\sqrt{1-x^2}} \cdot \cfrac{1}{\sqrt{1-(\arcsin x)^2}} \mathrm{d}x $
+5. $ \displaystyle \int \cfrac{x}{(1+x^2)^2} \mathrm{d}x $
+6. $ \displaystyle \int \cfrac{1}{x \ln x (\ln(\ln x))^2} \mathrm{d}x $
+7. $ \displaystyle \int \cfrac{e^x (1 + \sin x)}{1 + \cos x} \mathrm{d}x $
+8. $ \displaystyle \int \cfrac{1}{\sin^2 x \cos^2 x} \mathrm{d}x $
+9. $ \displaystyle \int \cfrac{\sin x \cos x}{\sqrt{1 + \sin^4 x}} \mathrm{d}x $
+10. $ \displaystyle \int \tan^4 x \mathrm{d}x $
+11. $ \displaystyle \int \cfrac{x e^x}{(1+x)^2} \mathrm{d}x $
+12. $ \displaystyle \int \cfrac{1 - \ln x}{(x - \ln x)^2} \mathrm{d}x $
 
 ## 代入换元法
 
@@ -80,6 +80,6 @@ $$
 
 ### 练习
 
-1. $ \int \sqrt{4 - x^2} dx $
-2. $ \int \frac{1}{x^2 \sqrt{x^2 + 1}} dx $
-3. $ \int \frac{1}{\sqrt{x} + \sqrt[3]{x}} dx $
+1. $ \displaystyle \int \sqrt{4 - x^2} dx $
+2. $ \displaystyle \int \frac{1}{x^2 \sqrt{x^2 + 1}} dx $
+3. $ \displaystyle \int \frac{1}{\sqrt{x} + \sqrt[3]{x}} dx $
