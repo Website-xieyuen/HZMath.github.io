@@ -83,3 +83,15 @@ $$
 1. $ \displaystyle \int \sqrt{4 - x^2} dx $
 2. $ \displaystyle \int \frac{1}{x^2 \sqrt{x^2 + 1}} dx $
 3. $ \displaystyle \int \frac{1}{\sqrt{x} + \sqrt[3]{x}} dx $
+
+## 综合练习
+
+1. $ \displaystyle \int \frac{\mathrm{d}x}{1+e^{x}} $
+2. $ \displaystyle \int \frac{\mathrm{d}x}{x\left(x^{6}+4\right)} $
+3. $ \displaystyle \int \frac{\mathrm{d}x}{\sqrt{x(1-x)}} $
+4. $ \displaystyle \int \frac{\mathrm{d}x}{x \sqrt{x^{2}-1}} $
+5. $ \displaystyle \int \frac{\mathrm{d}x}{x \sqrt{4-x^{2}}} $
+6. $ \displaystyle \int \sqrt{\frac{A+x}{A-x}} \mathrm{d}x $
+7. $ \displaystyle \int \sqrt{\frac{x-A}{B-x}} \mathrm{d}x $
+    - *注: $A<B$*
+8. $ \displaystyle \int \frac{\mathrm{d}x}{1+x^{3}} $
