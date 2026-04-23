@@ -1,0 +1,52 @@
+name: Pull Request CI
+
+on:
+  pull_request:
+    types: 
+      - opened
+    paths-ignore: # Skip run for security reasons
+      - .github/workflows/**/*.py
+    branches:
+      - master
+    
+
+jobs:
+  commenting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output thank you comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Thanks for your contribution! 🎉 Please be patient before we done checking. 
+            Have a nice day!
+
+      - name: Add pending label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: pending
+
+      - name: Check if PR title starts with [Article]
+        id: check_article
+        run: |
+          if [[ "${{ github.event.pull_request.title }}" =~ ^\[Article\] ]]; then
+            echo "is_article=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_article=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Add 'article' label if needed
+        if: steps.check_article.outputs.is_article == 'true'
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: article
+
+      - name: Assign PR to reviewer(s)
+        uses: actions-ecosystem/action-add-assignees@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: HZMath/2027
